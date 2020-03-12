@@ -36,7 +36,7 @@ public class ContactsController{
         return contactService.getContact(id);
     }
 
-    /**addTopic accepts a post request and is mapped to the addTopic 
+    /**addContact accepts a post request and is mapped to the addContact 
      * method in my service */
     /**The function accepts a parameter of type body and is annotated 
      * with “@RequestBody” */
